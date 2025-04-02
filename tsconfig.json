@@ -1,11 +1,15 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react-native",
+    "types": ["react", "react-native"],
+    "skipLibCheck": true,
     "strict": true,
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+      "axios": ["./node_modules/axios/index.d.ts"]
     }
   },
   "include": [

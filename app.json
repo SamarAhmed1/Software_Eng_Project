@@ -15,7 +15,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.CAMERA"
+      ],
+      "package": "com.samarahmed.ecovibe"
     },
     "web": {
       "bundler": "metro",
