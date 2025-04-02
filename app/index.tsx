@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
-import APPP from "../components/barcodeScan"
-
+import BarcodeScan from "../components/barcodeScan"
+import AiClassifier from "../components/AI_Classifier";
 export default function Index() {
   return (
     /*<View
@@ -12,6 +12,6 @@ export default function Index() {
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>*/
-    <APPP />
+    <AiClassifier />
   );
 }

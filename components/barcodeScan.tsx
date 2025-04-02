@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Button } from "react-native";
 import React, { useState, useEffect } from "react";
 import { CameraView, Camera } from "expo-camera";
 
-const APPP = () => {
+const BarcodeScan = () => {
     const [hasPermission, setHasPermission] = useState<boolean | null>(null);
     const [scanner, setScanner] = useState<boolean>(false);
     const [text, setText] = useState<string>("Not Yet Scanned");
@@ -84,4 +84,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default APPP;
+export default BarcodeScan;
